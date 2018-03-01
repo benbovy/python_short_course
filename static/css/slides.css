@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+/* color palette: http://www.color-hex.com/color-palette/1407 */
+
+body {
+  font-family: 'Open Sans';
+}
+
+h1, h2, h3 {
+  font-family: 'PT Sans Narrow';
+  font-weight: normal;
+  letter-spacing: 0.03em;
+}
+
+h1 {
+  color: #36454f;
+  margin-top: 20px;
+}
+
+h2, h3 {
+  color: #536878;
+}
+
+.remark-slide-content p, ol, ul {
+  font-size: 1em;
+}
+
+.inverse {
+  background: #d4d8dd;
+}
+
+/* Two-column layout */
+.col-left40,
+.col-left50,
+.col-left60 {
+  float: left;
+}
+
+.col-left40 {
+  width: 40%;
+}
+
+.col-left50 {
+  width: 50%;
+}
+
+.col-left60 {
+  width: 60%;
+}
+
+.col-right40,
+.col-right50,
+.col-right60 {
+  float: right;
+  padding-top: 0em;
+  margin-top: 0em;
+  text-align: left;
+}
+
+.col-right40 {
+  width: 39%;
+}
+
+.col-right50 {
+  width: 49%;
+}
+
+.col-right60 {
+  width: 59%;
+}
+
+.col-right40 ~ p,
+.col-right50 ~ p,
+.col-right60 ~ p {
+  clear: both;
+}
+
+.remark-code,
+.remark-inline-code {
+  font-family: 'Roboto Mono';
+  font-size: 0.8em;
+}
+
+.remark-code {
+  color: #64748c;
+}
+.python {
+  background-color: #f4f4f4 !important;
+}
+
+.terminal {
+  padding: .5em;
+  background-color: #222 !important;
+}
+
+.terminal pre {
+  margin: 0;
+}
+
+.terminal div {
+  color: #ccc !important;
+}
+
+a {
+  text-decoration: none;
+  color: #daa520;
+}
+
+a:visited {
+  color: #daa520;
+}
+
+a:hover {
+  color: #e8c15f;
+}
+
+a:active, a#active {
+  color: #e8c15f;
+}
+
+.highlight {
+  color: #725368;
+}
+
+.cite,
+figcaption {
+  font-size: 0.8em;
+  color:#555;
+  font-style: italic;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px #aaa solid;
+}
+
+th, td {
+  font-size: 0.8em;
+  padding: 5px 10px 5px 10px;
+}
+
+th {
+  background-color: #fff;
+}
+
+tr {
+  background-color: #fdfdfd;
+}
+
+tr:nth-child(odd) {
+  background-color: #eee;
+}
